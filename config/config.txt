@@ -50,7 +50,7 @@ status = ONLINE
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus=false
+songinstatus=true
 
 
 // If you set this, the bot will also use this prefix in addition to
@@ -87,20 +87,20 @@ npimages = false
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel = false
+stayinchannel = true
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
 // to any number less than or equal to zero, there is no maximum time length. This time
 // restriction applies to songs loaded from any source.
 
-maxtime = 0
+maxtime = 16560
 
 // This sets the amount of seconds the bot will stay alone on a voice channel until it
 // automatically leaves the voice channel and clears the queue. If not set or set
 // to any number less than or equal to zero, the bot won't leave when alone.
 
-alonetimeuntilstop = 600
+alonetimeuntilstop = 60
 
 // This sets an alternative folder to be used as the Playlists folder
 // This can be a relative or absolute path
@@ -122,7 +122,7 @@ updatealerts=true
 // If you are interested in contributing a provider, please see
 // https://github.com/jagrosh/JLyrics
 
-lyrics.default = "A-Z Lyrics"
+lyrics.default = "MusicMatch"
 
 
 // These settings allow you to configure custom aliases for all commands.
